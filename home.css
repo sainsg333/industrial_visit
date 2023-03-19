@@ -165,7 +165,7 @@ body{
         margin: 0;
     }
     body{
-        background-image: url("assets/airportlogo.jpg");
+        background-image: url("assets/background.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
     }
@@ -221,7 +221,7 @@ body{
     
     .carousel-item img{
         width: 100%;    
-        height: 70vh;
+        height: 50vh;
         border-radius: 10px;
     }
     .slide{
@@ -305,7 +305,6 @@ body{
     .pic{
         padding-inline: 10px;;
         width: 250px;
-        margin-left:30px;
         margin-bottom:10px;
         height: 250px;
         background-color: aquamarine;
