@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.nav{
+    position: sticky;
+    width: 100%;
+    top: 5px;
+    padding: 0;
+    z-index: 1;
+}
+.navbar{
+    width: 99.3%;
+    height: auto;
+    border-radius:5px;
+    background-color: #00B6FF;
+    margin:5px;
+}
+.container-fliud{
+    background: transparent;
+    height: auto;
+}
+#info{
+    padding-top:55px;
+    margin-top: 50%;
+    width: 100%;
+    display: inline-block;
+    position: static;
+    height: auto;
+    background-color: #b7e3ff;
+    padding-bottom:50px;
+}
+
+.content{
+    position: relative;
+    display: block;
+    text-align:center;
+}
+.content h1{
+    width: auto;
+    height: auto;
+    position: relative;
+}
+.content p{
+    margin: 10px;;
+}
+.carousel-inner{
+    display: flex;
+}
+.coro{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item img{
+    width: 100%;    
+    height: 70vh;
+    border-radius: 10px;
+}
+.slide{
+    width:90%;
+}
+#airport{
+    padding-top:55px;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    padding-bottom:50px;
+}
+.conmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 10px;
+}
+.con{
+    border: 2px solid salmon;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.con h3{
+    font-size: 1.5em;
+    color: black;
+}
+#innovex{
+    padding-top:55px;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    background: #b7e3ff;
+    padding-bottom:50px;
+}
+#waisl{
+    padding-top:55px;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    padding-bottom:50px;
+}
+#MRO{
+    padding-top:55px;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    background: #b7e3ff;
+    padding-bottom:50px;
+}
+#amazonhub{
+    padding-top:55px;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    padding-bottom:50px;
+}
+.footer{
+    width: 100%;
+    height:auto;
+    display: block;
+    padding:10%;
+    background-color: darksalmon;
+}
+.pics{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.pic{
+    padding-inline: 10px;;
+    width: 250px;
+    height: 250px;
+    background-color: aquamarine;
+    margin-right: 10px;
+    border: 2px solid crimson;
+    border-radius: 5px;
+}
+.pic img{
+    margin: 5px;
+    width:200px;
+    border-radius: 5px;
+    height: 170px;
+}
+.footer h1{
+    color: indianred;
+    text-align: center;
+    margin-top: 40px;
+}
+@media screen and (max-width:600px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background-image: url("assets/airportlogo.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .nav{
+        position: sticky;
+        width: 100%;
+        top: 5px;
+        padding: 0;
+        z-index: 1;
+    }
+    .navbar{
+        width: 99.3%;
+        height: auto;
+        border-radius:5px;
+        background-color: #00B6FF;
+        margin:5px;
+    }
+    .container-fliud{
+        background: transparent;
+        height: auto;
+    }
+    #info{
+        padding-top:55px;
+        margin-top: 50%;
+        width: 100%;
+        display: inline-block;
+        position: static;
+        height: auto;
+        background-color: #b7e3ff;
+        padding-bottom:50px;
+    }
+    
+    .content{
+        position: relative;
+        display: block;
+        text-align:center;
+    }
+    .content h1{
+        width: auto;
+        height: auto;
+        position: relative;
+    }
+    .content p{
+        margin: 10px;;
+    }
+    .carousel-inner{
+        display: flex;
+    }
+    .coro{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .carousel-item img{
+        width: 100%;    
+        height: 70vh;
+        border-radius: 10px;
+    }
+    .slide{
+        width:90%;
+    }
+    #airport{
+        padding-top:55px;
+        width: 100%;
+        display: inline-block;
+        height: auto;
+        padding-bottom:50px;
+    }
+    .conmain{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .con{
+        border: 2px solid salmon;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .con h3{
+        font-size: 1.5em;
+        color: black;
+    }
+    #innovex{
+        padding-top:55px;
+        width: 100%;
+        display: inline-block;
+        height: auto;
+        background: #b7e3ff;
+        padding-bottom:50px;
+    }
+    #waisl{
+        padding-top:55px;
+        width: 100%;
+        display: inline-block;
+        height: auto;
+        padding-bottom:50px;
+    }
+    #MRO{
+        padding-top:55px;
+        width: 100%;
+        display: inline-block;
+        height: auto;
+        background: #b7e3ff;
+        padding-bottom:50px;
+    }
+    #amazonhub{
+        padding-top:55px;
+        width: 100%;
+        display: inline-block;
+        height: auto;
+        padding-bottom:50px;
+    }
+    .footer{
+        width: 100%;
+        height:auto;
+        display: block;
+        padding:10%;
+        background-color: darksalmon;
+    }
+    .pics{
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .pic{
+        padding-inline: 10px;;
+        width: 250px;
+        margin-left:60px;
+        margin-bottom:10px;
+        height: 250px;
+        background-color: aquamarine;
+        margin-right: 10px;
+        border: 2px solid crimson;
+        border-radius: 5px;
+    }
+    .pic img{
+        margin: 5px;
+        width:200px;
+        height: 170px;
+        border-radius: 5px;
+    }
+    .footer h1{
+        color: indianred;
+        text-align: center;
+        margin-top: 40px;
+        font-size: 1em;
+    }
+}
